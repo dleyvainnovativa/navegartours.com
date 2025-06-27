@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "min": "4 horas",
+    "name": "Wellcraft",
+    "length": "40ft",
+    "capacity": 16,
+    "description": "Cuenta con camarote, recámara principal, 2 salas, comedor, cocina, baño. Área social con mesa en la parte de afuera, colchonetas para trabajar su bronceado, toldo, agua potable y sistema de audio con bluetooth.",
+    "price": "$3,400.00",
+    "gallery": [
+      "wellcraft1.png",
+      "wellcraft2.png",
+      "wellcraft3.png",
+      "wellcraft4.png",
+      "wellcraft5.png",
+      "wellcraft6.png",
+      "wellcraft7.png",
+      "wellcraft8.png",
+      "wellcraft9.png"
+    ],
+    "features": [
+      "Camarote",
+      "Recámara principal",
+      "2 salas",
+      "Comedor",
+      "Cocina",
+      "Baño",
+      "Área social con mesa exterior",
+      "Colchonetas para bronceado",
+      "Toldo",
+      "Agua potable",
+      "Sistema de audio con bluetooth"
+    ]
+  },
+  {
+    "id": 2,
+    "min": "4 horas",
+    "name": "Searay Sundancer",
+    "length": "30ft",
+    "capacity": "8 ",
+    "description": "Cuenta con camarote, 2 recamaras, sala, comedor, cocina, baño, área social con mesa, asoleadero con colchoneta para trabajar su bronceado, toldo, agua potable, regadera en plataforma  y sistema de audio con bluetooth.",
+    "price": "$3,800.00",
+    "gallery": [
+      "searaysundancer1.png",
+      "searaysundancer2.png",
+      "searaysundancer3.png",
+      "searaysundancer4.png",
+      "searaysundancer5.png"
+    ],
+    "features": [
+      "Camarote",
+      "2 recámaras",
+      "Sala",
+      "Comedor",
+      "Cocina",
+      "Baño",
+      "Área social con mesa",
+      "Asoleadero con colchoneta",
+      "Toldo",
+      "Agua potable",
+      "Regadera en plataforma",
+      "Sistema de audio con bluetooth"
+    ]
+  },
+  {
+    "id": 3,
+    "min": "4 horas",
+    "name": "Monterrey",
+    "length": "26ft",
+    "capacity": 8,
+    "description": "Cuenta con doble sala, baño, barra en la parte de en medio, toldo, agua potable, regadera en plataforma y sistema de audio con bluetooth.",
+    "price": "2,700.00",
+    "gallery": [
+      "monterrey1.png",
+      "monterrey2.png",
+      "monterrey3.png",
+      "monterrey4.png",
+      "monterrey5.png",
+      "monterrey6.png",
+      "monterrey7.png",
+      "monterrey8.png",
+      "monterrey9.png"
+    ],
+    "features": [
+      "Doble sala",
+      "Baño",
+      "Barra central",
+      "Toldo",
+      "Agua potable",
+      "Regadera en plataforma",
+      "Sistema de audio con bluetooth"
+    ]
+  },
+  {
+    "id": 4,
+    "min": "4 horas",
+    "name": "Searay Sundeck",
+    "length": "28ft",
+    "capacity": 8,
+    "description": "Cuenta con área social con  2 salas con mesas, baño, toldo, dos camastros  para trabajar su bronceado,  agua potable, plataforma de nado, barra en la parte de enmedio, regadera en plataforma y sistema de audio con bluetooth.",
+    "price": "$2,700.00",
+    "gallery": [
+      "searaysundeck1.png",
+      "searaysundeck2.png",
+      "searaysundeck3.png",
+      "searaysundeck4.png",
+      "searaysundeck5.png",
+      "searaysundeck6.png"
+    ],
+    "features": [
+      "2 salas con mesas",
+      "Baño",
+      "Toldo",
+      "2 camastros para bronceado",
+      "Agua potable",
+      "Plataforma de nado",
+      "Barra central",
+      "Regadera en plataforma",
+      "Sistema de audio con bluetooth"
+    ]
+  },
+  {
+    "id": 5,
+    "min": "4 horas",
+    "name": "Searay Cruiser",
+    "length": "50ft",
+    "capacity": 22,
+    "description": "Capacidad para 22 personas Cuenta con camarote climatizado, 2 recamaras, 2 baños, cocina completa con micro estufa, 2 refrigeradores maquina de hielos, comedor. Sala con pantalla. Área social con doble sala mesa asoleadero con colchonetas, regadera en plataforma, sonido bluetooth.",
+    "price": "$2,800.00",
+    "gallery": [
+      "searaycruiser1.png",
+      "searaycruiser2.png",
+      "searaycruiser3.png",
+      "searaycruiser4.png",
+      "searaycruiser5.png",
+      "searaycruiser6.png",
+      "searaycruiser7.png"
+    ],
+    "features": [
+      "Camarote climatizado",
+      "2 recámaras",
+      "2 baños",
+      "Cocina con micro y estufa",
+      "2 refrigeradores",
+      "Máquina de hielos",
+      "Comedor",
+      "Sala con pantalla",
+      "Área social con doble sala y mesa",
+      "Asoleadero con colchonetas",
+      "Regadera en plataforma",
+      "Sistema de audio con bluetooth"
+    ]
+  },
+  {
+    "id": 6,
+    "min": "4 horas",
+    "name": "Maxum",
+    "length": "33ft",
+    "capacity": 10,
+    "description": "Cuenta con camarote, recámara  2 salas, comedor,  cocina, baño, área social con mesa, asoleadero con colchoneta para trabajar su bronceado, toldo, agua potable,  y sistema de audio con bluetooth, usb, auxiliar.",
+    "price": "$4,500.00",
+    "gallery": [
+      "maxum1.png",
+      "maxum2.png",
+      "maxum3.png",
+      "maxum4.png",
+      "maxum5.png",
+      "maxum6.png",
+      "maxum7.png"
+    ],
+    "features": [
+      "Camarote",
+      "Recámara",
+      "2 salas",
+      "Comedor",
+      "Cocina",
+      "Baño",
+      "Área social con mesa",
+      "Asoleadero con colchoneta",
+      "Toldo",
+      "Agua potable",
+      "Sistema de audio con bluetooth, USB y auxiliar"
+    ]
+  },
+  {
+    "id": 7,
+    "min": "4 horas",
+    "name": "Trojan express",
+    "length": "38ft",
+    "capacity": 14,
+    "description": "Cuenta con camarote, recámara principal, 2 salas, comedor, cocina, baño. Área social con sala, mesa en la parte de afuera, colchonetas para trabajar su bronceado, toldo, agua potable y sistema de audio con bluetooth.",
+    "price": "$3,400.00",
+    "gallery": [
+      "trojanexpress1.png",
+      "trojanexpress2.png",
+      "trojanexpress3.png"
+    ],
+    "features": [
+      "Camarote",
+      "Recámara principal",
+      "2 salas",
+      "Comedor",
+      "Cocina",
+      "Baño",
+      "Área social con sala y mesa exterior",
+      "Colchonetas para bronceado",
+      "Toldo",
+      "Agua potable",
+      "Sistema de audio con bluetooth"
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "Cena romántica",
+        "gallery": [
+            "cena1.png",
+            "cena2.png",
+            "cena3.png",
+            "cena4.png"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Cumpleaños",
+        "gallery": [
+            "cumpleaños1.png",
+            "cumpleaños2.png",
+            "cumpleaños3.png",
+            "cumpleaños4.png"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Despedida de soltera",
+        "gallery": [
+            "despedida1.png",
+            "despedida2.png",
+            "despedida3.png",
+            "despedida4.png",
+            "despedida5.png",
+            "despedida6.png"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Familiares",
+        "gallery": [
+            "familiares1.png",
+            "familiares2.png",
+            "familiares3.png",
+            "familiares4.png",
+            "familiares5.png"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Integración",
+        "gallery": [
+            "integracion1.png",
+            "integracion2.png",
+            "integracion3.png",
+            "integracion4.png"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Pedida",
+        "gallery": [
+            "pedida1.png",
+            "pedida2.png",
+            "pedida3.png"
+        ]
+    }
+]
