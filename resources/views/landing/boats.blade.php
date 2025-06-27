@@ -8,7 +8,7 @@
                     <p class="lead text-muted">Disfruta del máximo lujo y confort con nuestros completos servicios de renta de yates.</p>
                 </div>
                 <div class="col-auto ms-auto">
-                    <a href="/navegatours/public/#home">Reserva ahora</a>
+                    <a href="{{ env('APP_URL')}}#home">Reserva ahora</a>
                 </div>
             </div>
         </div>

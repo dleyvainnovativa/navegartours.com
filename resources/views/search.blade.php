@@ -2,6 +2,12 @@
 
 @section('content')
 
+<style>
+    #boat-bg::before {
+        background-image: url("{{asset('assets/img/background.webp')}}");
+    }
+</style>
+
 <section class="text-white h-65" id="boat-bg">
     <div class="container h-100 align-content-end" id="hero-content">
         <div class="row">

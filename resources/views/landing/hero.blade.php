@@ -1,10 +1,15 @@
+<style>
+    #home::before {
+        background-image: url("{{asset('assets/img/background.webp')}}");
+    }
+</style>
 <!-- Hero Section -->
 <section class="text-white h-100" id="home">
     <div class="container h-100 align-content-center" id="hero-content">
         <div class="mb-4 col-12 col-md-7">
             <h1 class="title py-2">Donde termina la tierra, comienza la diversión</h1>
             <p class="lead py-2">Descubre nuestro servicio premium de alquiler de yates para vivir travesías inolvidables por las destinos más hermosas de Veracruz.</p>
-            <a href="/navegatours/public/#boats" class="btn btn-primary">Nuestras embarcaciones</a>
+            <a href="{{ env('APP_URL')}}#boats" class="btn btn-primary">Nuestras embarcaciones</a>
         </div>
         <div class="card p-3">
             <div class="card-body">

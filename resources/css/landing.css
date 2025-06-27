@@ -63,7 +63,6 @@ color: var(--primary-color);
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("http://localhost/navegatours/public/assets/img/background.webp");
     background-size: cover;
     background-position: center;
     filter: brightness(0.6);
