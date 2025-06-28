@@ -1,7 +1,7 @@
 <header class="navbar navbar-expand-lg fixed-top bg-transparent navbar-dark" id="header" aria-label="Eighth navbar example">
     <div class="container" id="main-header">
         <a class="navbar-brand" href="{{ env('APP_URL')}}">
-            <img id="header-img" src="{{asset('assets/img/logo.png')}}" height="30" alt="" srcset="">
+            <img id="header-img" src="{{asset('assets/img/logo2.png')}}" height="150" alt="" srcset="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

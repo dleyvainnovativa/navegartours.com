@@ -1,5 +1,16 @@
 [
     {
+        "id": 4,
+        "name": "Paseo con amigos y familiares",
+        "gallery": [
+            "familiares1.png",
+            "familiares2.png",
+            "familiares3.png",
+            "familiares4.png",
+            "familiares5.png"
+        ]
+    },
+    {
         "id": 1,
         "name": "Cena romántica",
         "gallery": [
@@ -31,17 +42,7 @@
             "despedida6.png"
         ]
     },
-    {
-        "id": 4,
-        "name": "Familiares",
-        "gallery": [
-            "familiares1.png",
-            "familiares2.png",
-            "familiares3.png",
-            "familiares4.png",
-            "familiares5.png"
-        ]
-    },
+    
     {
         "id": 5,
         "name": "Integración",

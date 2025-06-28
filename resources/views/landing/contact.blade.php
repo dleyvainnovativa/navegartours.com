@@ -13,7 +13,7 @@
                             </div>
                             <div class="col-12 col-md-auto my-auto">
                                 <p class="my-0 py-0">Ubicación</p>
-                                <p class="my-0 py-0 text-muted">123 Marina Boulevard, Veracruz, MX 99999
+                                <p class="my-0 py-0 text-muted">Marina Boca, Boulevard Isla del Amor
                                 </p>
                             </div>
                         </div>

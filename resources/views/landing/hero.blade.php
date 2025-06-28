@@ -32,7 +32,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-3">
-                            <label for="validationCustom01" class="form-label">Huéspedes</label>
+                            <label for="validationCustom01" class="form-label">Número de tripulantes</label>
                             <input class="form-control" type="number" min="0" max="20" name="capacity" id="search_people" required>
                             <div class="invalid-feedback">
                                 No puede estar vacío el número de huéspedes
