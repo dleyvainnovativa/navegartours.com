@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{env('SITE_NAME')}}</title>
     <link rel="icon" type="image/png" href="{{ asset('assets/img/icon.png') }}">
-    <meta property="og:image" content="{{ asset('assets/img/og.png') }}">
+    <meta property="og:image" content="{{ asset('assets/img/og.jpeg') }}">
     <meta name="description" content="{{env('SITE_DESCRIPTION')}}">
     <meta name="author" content="innovativa.com.mx">
     <meta property="og:description" content="{{env('SITE_DESCRIPTION')}}">
