@@ -1,50 +1,100 @@
 [
-    {
-        "id": 1,
-        "name": "Ruta 1",
-        "description": "Saliendo del estero damos un paseo por toda la costera para llegar a la isla de Sacrificios, tomarse la selfie oficial y si van con niños pueden darles comer a los peces. Luego navegamos hacia el bajo de Cancuncito a relajarnos a dónde pueden trabajar su bronceado escuchando música, bajarse a nadar en el mar transparente y practicar esnórquel." ,
-        "duration": "4-5 horas",
-        "gallery": [
-            "ruta_1_1.png",
-            "ruta_1_2.png",
-            "ruta_1_3.png",
-            "ruta_1_4.png"
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Ruta 2",
-        "description": "Saliendo del estero damos un paseo por toda la costera para llegar a isla Verde y Catedrales uno de los mejores arrecifes del polígono arrecifal para practicar esnórquel y pesca recreativa. Después vamos a Cancuncito a relajarnos donde pueden trabajar su bronceado escuchando música y bajarse a nadar en un mar transparente.",
-        "duration": "5-6 horas",
-        "gallery": [
-            "ruta_2_1.png",
-            "ruta_2_2.png",
-            "ruta_2_3.png",
-            "ruta_2_4.png"
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Ruta 3",
-        "description": "Saliendo del estero navegamos al Sureste, para llegar a isla de Salmedina donde pueden desembarcar para poder caminar, trabajar su bronceado, practicar esnórquel y estar en contacto con la naturaleza.",
-        "duration": "6 horas",
-        "gallery": [
-            "ruta_3_1.png",
-            "ruta_3_2.png",
-            "ruta_3_3.png",
-            "ruta_3_4.png"
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Ruta 4",
-        "description": "Salimos del estero para dar un paseo por el brazo de mar que comprede: Boca del Río y todo el manglar del Estero, Dorado, Conchal, rincón del Conchal, club de golf, la Matoza y Mandinga, donde pueden nadar, practicar deportes acuáticos, trabajar su bronceado y visitar restaurantes típicos de de la zona.",
-        "duration": "4-5 horas",
-        "gallery": [
-            "ruta_4_1.png",
-            "ruta_4_2.png",
-            "ruta_4_3.png",
-            "ruta_4_4.png"
-        ]
-    }
+  {
+    "id": 1,
+    "route": "Ruta 1",
+    "starting_point": "Estero",
+    "stops": [
+      "Costera",
+      "Isla de Sacrificios",
+      "Bajo de Cancuncito"
+    ],
+    "activities": [
+      "Tomarse la selfie oficial",
+      "Alimentar peces (ideal para niños)",
+      "Trabajar el bronceado",
+      "Escuchar música",
+      "Nadar en el mar transparente",
+      "Practicar esnórquel"
+    ],
+    "hours": 4,
+    "duration": "4 a 5",
+    "gallery": [
+      "sacrificios1.jpg",
+      "sacrificios2.jpg",
+      "cancuncito2.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "route": "Ruta 2",
+    "starting_point": "Estero",
+    "stops": [
+      "Costera",
+      "Isla Verde",
+      "Catedrales",
+      "Cancuncito"
+    ],
+    "activities": [
+      "Practicar esnórquel",
+      "Pesca recreativa",
+      "Trabajar el bronceado",
+      "Escuchar música",
+      "Nadar en el mar transparente"
+    ],
+    "hours": 5,
+    "duration": "5 a 6",
+    "gallery": [
+      "islaverde1.jpg",
+      "islaverde2.jpg",
+      "cancuncito1.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "route": "Ruta 3",
+    "starting_point": "Estero",
+    "stops": [
+      "Isla de Salmedina"
+    ],
+    "activities": [
+      "Desembarcar y caminar",
+      "Trabajar el bronceado",
+      "Practicar esnórquel",
+      "Contacto con la naturaleza"
+    ],
+    "hours": 6,
+    "duration": "6",
+    "gallery": [
+      "salmedina1.jpg",
+      "salmedina2.jpg",
+      "salmedina3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "route": "Ruta 4",
+    "starting_point": "Estero",
+    "stops": [
+      "Boca del Río",
+      "Manglar del Estero",
+      "Dorado",
+      "Conchal",
+      "Rincón del Conchal",
+      "Club de Golf",
+      "La Matoza",
+      "Mandinga"
+    ],
+    "activities": [
+      "Nadar",
+      "Practicar deportes acuáticos",
+      "Trabajar el bronceado",
+      "Visitar restaurantes típicos"
+    ],
+    "hours": 4,
+    "duration": "4 a 5",
+    "gallery": [
+      "rio1.jpg",
+      "rio2.jpg"
+    ]
+  }
 ]

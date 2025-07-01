@@ -25,15 +25,15 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-3">
-                            <label for="validationCustom01" class="form-label">Ubicación</label>
-                            <input class="form-control" value="{{$today}}" type="datetime-local" name="date" id="search_date" required>
+                            <label for="validationCustom01" class="form-label">Fecha de reserva</label>
+                            <input class="form-control" min="{{$today}}" max="{{$max}}" value="{{$today}}" type="datetime-local" name="date" id="search_date" required>
                             <div class="invalid-feedback">
                                 No puede estar vacía la fecha
                             </div>
                         </div>
                         <div class="col-12 col-md-3">
                             <label for="validationCustom01" class="form-label">Número de tripulantes</label>
-                            <input class="form-control" type="number" min="0" max="20" name="capacity" id="search_people" required>
+                            <input class="form-control" type="number" min="0" max="30" name="capacity" id="search_people" required>
                             <div class="invalid-feedback">
                                 No puede estar vacío el número de huéspedes
                             </div>

@@ -98,9 +98,17 @@ color: var(--primary-color);
 .card-img{
     filter: brightness(0.8);
 }
+.card-img-gallery{
+    filter: brightness(1);
+}
 
 .card-img-overlay{
     top: unset;
+}
+
+.add-experience{
+    position: relative;
+    z-index: 10;
 }
 
 section{
@@ -133,6 +141,18 @@ section{
 .exp-badge:hover{
     background-color: #b51d0f !important;
 }
+
+.red-highlight {
+    background: #dc3545 !important; /* Bootstrap red */
+    color: white !important;
+    border-radius: 50%;
+}
+.yellow-highlight {
+    background: #ffc107 !important; /* Bootstrap yellow */
+    color: black !important;
+    border-radius: 50%;
+}
+
 
 
 @media (max-height: 700px) {

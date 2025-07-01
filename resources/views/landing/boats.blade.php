@@ -23,10 +23,10 @@
                         <h5 class="card-title">{{$boat["name"]}}</h5>
                         <div class="d-flex flex-wrap gap-2 text-muted small mb-4">
                             <div class="d-flex align-items-center me-4">
-                                <span class="fw-medium">Length:</span><span class="ms-1">{{$boat["length"]}}</span>
+                                <span class="fw-medium">Longitud:</span><span class="ms-1">{{$boat["length"]}} ft.</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <span class="fw-medium">Capacity:</span><span class="ms-1">{{$boat["capacity"]}}</span>
+                                <span class="fw-medium">Capacidad:</span><span class="ms-1">{{$boat["capacity"]}}</span>
                             </div>
                         </div>
 

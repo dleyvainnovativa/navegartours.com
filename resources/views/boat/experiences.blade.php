@@ -22,7 +22,7 @@
                                 <h2 class="card-title">{{$experience["name"]}}</h2>
                             </div>
                             <div class="col-auto my-auto">
-                                <button class="btn btn-primary" onclick="addExperience({{ json_encode($experience['id']) }}, {{ json_encode($experience['name']) }})"><i class="fa fa-solid fa-plus"></i></button>
+                                <button class="btn btn-primary add-experience" onclick="addExperience({{ json_encode($experience['id']) }}, {{ json_encode($experience['name']) }})"><i class="fa fa-solid fa-plus"></i></button>
                             </div>
                         </div>
                     </div>

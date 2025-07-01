@@ -1,0 +1,32 @@
+[
+  {
+    "rate": 5,
+    "review": "El servicio fue excepcional, superó todas mis expectativas. Definitivamente volveré a contratarles.",
+    "client": "María Fernández",
+    "client_description": "Directora General, Innovación Creativa"
+  },
+  {
+    "rate": 4,
+    "review": "Muy buen trabajo y atención al cliente. Hubo algunos detalles menores, pero en general quedé muy satisfecho.",
+    "client": "Jorge Ramírez",
+    "client_description": "Gerente de Operaciones, Soluciones Integrales"
+  },
+  {
+    "rate": 5,
+    "review": "Excelente experiencia de principio a fin. El equipo fue profesional y amable.",
+    "client": "Lucía Gómez",
+    "client_description": "CEO, Global Ventures"
+  },
+  {
+    "rate": 3,
+    "review": "El servicio fue bueno, pero considero que podrían mejorar los tiempos de respuesta.",
+    "client": "Carlos Méndez",
+    "client_description": "Consultor, Estrategias Empresariales"
+  },
+  {
+    "rate": 5,
+    "review": "Todo perfecto, muy recomendados. La calidad y dedicación se notan en cada detalle.",
+    "client": "Ana Torres",
+    "client_description": "Fundadora, Proyectos Sustentables"
+  }
+]

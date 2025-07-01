@@ -10,6 +10,12 @@
     }
 </style>
 
+<script>
+    let reservations = @json($reservations);
+    window.reservations = reservations;
+</script>
+
+
 <div class="py-5">
     <div class="container">
         <div class="row">
@@ -44,11 +50,11 @@
                     </div>
                     <div class="col-6 col-md-3">
                         <div class="card">
-                            <div class="card-body">
-                                <i class="fa fa-solid fa-ruler text-primary"></i>
-                                <p class="my-0 text-muted small">Longitud</p>
-                                <p class="my-0 fw-bold ">{{$boat["length"]}}</p>
-                            </div>
+                            <button data-bs-toggle="offcanvas" data-bs-target="#gallery" aria-controls="gallery" class="card-body btn btn-outline-primary">
+                                <i class="fa fa-solid fa-camera"></i>
+                                <p class="my-0 small">Galería</p>
+                                <p class="my-0 fw-bold ">{{sizeof($boat["gallery"])}}</p>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -87,13 +93,31 @@
                         <div class="py-2">
                             <form class="needs-validation">
                                 <input type="hidden" value="{{$boat['name']}}" id="book-boat">
-                                <div class="mb-3">
+                                <!-- <div class="mb-3">
                                     <label for="exampleFormControlInput1" class="form-label">Selecciona el día</label>
                                     <input type="datetime-local" value="{{$today}}" name="date" class="form-control" required id="book-date">
+                                    <div id="reservation-error" style="color: red; display: none;">That date/time is already reserved.</div>
+
+                                </div> -->
+                                <div class="mb-3">
+                                    <label for="book-date" class="form-label">Selecciona fecha</label>
+                                    <input type="text" id="book-date" class="form-control" required />
                                 </div>
+
+                                <div class="mb-3">
+                                    <label for="book-time" class="form-label">Selecciona horario</label>
+                                    <select id="book-time" class="form-control" required>
+                                        <option value="">Escoge una fecha primero</option>
+                                    </select>
+                                </div>
+
+                                <div id="reservation-error" class="text-danger mt-2" style="display:none;"></div>
+
+
+
                                 <div class="mb-3">
                                     <label for="exampleFormControlInput1" class="form-label">Número de viajeros</label>
-                                    <input class="form-control" id="book-passengers" value="2" type="number" min=1 max={{$boat['capacity']}} required>
+                                    <input class="form-control" id="book-passengers" value="2" required type="number" min=1 max={{$boat['capacity']}} required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="exampleFormControlInput1" class="form-label">Rutas</label>
@@ -121,5 +145,6 @@
     </div>
 </div>
 
+@include("boat.gallery")
 
 @endsection

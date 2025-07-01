@@ -10,19 +10,22 @@
             <div class="col-md-4">
                 <h6>Links</h6>
                 <ul class="list-unstyled">
-                    <li>Home</li>
-                    <li>Embarcaciones</li>
-                    <li>Experiencias</li>
-                    <li>Servicios</li>
-                    <li>Contacto</li>
+                    <li> <a class="text-light" href="{{ env('APP_URL')}}#home">Home</a></li>
+                    <li> <a class="text-light" href="{{ env('APP_URL')}}#boats">Embarcaciones</a></li>
+                    <li> <a class="text-light" href="{{ env('APP_URL')}}#places">Experiencias</a></li>
+                    <li> <a class="text-light" href="{{ env('APP_URL')}}#services">Servicios</a></li>
+                    <li> <a class="text-light" href="{{ env('APP_URL')}}#contact">Contacto</a></li>
                 </ul>
             </div>
             <div class="col-md-4">
-                <h6>Newsletter</h6>
-                <form>
-                    <input type="email" class="form-control mb-2" placeholder="Your email address">
-                    <button type="submit" class="btn btn-outline-light btn-sm">Suscríbete</button>
-                </form>
+                <h6>Experiencias</h6>
+                <ul class="list-unstyled">
+                    <li>Paseo con amigos</li>
+                    <li>Cena romántica</li>
+                    <li>Cumpleaños</li>
+                    <li>Despedidas de soltera</li>
+                    <li>Integración</li>
+                </ul>
             </div>
         </div>
         <div class="text-center mt-4">

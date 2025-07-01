@@ -10,9 +10,9 @@
             </div>
         </div>
         <div class="row text-start g-4">
-            @for ($i = 0; $i < 3; $i++)
+            @foreach ($reviews as $review)
 
-                <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4">
                 <div class="card p-3 card-shadow">
                     <div class="card-body">
                         <h5 class="card-title text-warning">
@@ -22,22 +22,23 @@
                             <i class="fa fa-solid fa-star"></i>
                             <i class="fa fa-solid fa-star"></i>
                         </h5>
-                        <p class="card-text">"La experiencia más lujosa en el agua. La tripulación fue excepcional y el yate estaba impecable."</p>
+                        <p class="card-text">"{{$review['review']}}"</p>
                         <div class="row">
-                            <div class="col-auto my-auto">
+                            <!-- <div class="col-auto my-auto">
                                 <img src="..." class="rounded-circle bg-secondary" alt="...">
 
-                            </div>
+                            </div> -->
                             <div class="col-auto">
-                                <p class="p-0 my-0">Michael Thompson</p>
-                                <p class="p-0 my-0 text-body-secondary">CEO, Global Ventures</p>
+                                <p class="p-0 my-0">{{$review['client']}}</p>
+                                <p class="p-0 my-0 text-body-secondary">{{$review['client_description']}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
-        </div>
-        @endfor
+            </div>
+            @endforeach
 
-    </div>
+
+        </div>
     </div>
 </section>

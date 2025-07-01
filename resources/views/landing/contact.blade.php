@@ -9,12 +9,11 @@
                     <div>
                         <div class="row">
                             <div class="col-12 col-md-auto my-auto">
-                                <i class="rounded-circle bg-primary p-2 my-2  fa-solid fa-location text-light"></i>
+                                <i class="rounded-circle bg-primary p-2 my-2  fa-solid fa-location-dot text-light"></i>
                             </div>
                             <div class="col-12 col-md-auto my-auto">
                                 <p class="my-0 py-0">Ubicación</p>
-                                <p class="my-0 py-0 text-muted">Marina Boca, Boulevard Isla del Amor
-                                </p>
+                                <p class="my-0 py-0 text-muted">{{env('CLIENT_ADDRESS')}}</p>
                             </div>
                         </div>
                         <hr>
@@ -24,8 +23,7 @@
                             </div>
                             <div class="col-12 col-md-auto my-auto">
                                 <p class="my-0 py-0">Teléfono</p>
-                                <p class="my-0 py-0 text-muted">+52 (229) 916-1234
-                                </p>
+                                <p class="my-0 py-0 text-muted"><a href="tel:{{env('CLIENT_PHONE')}}">{{env('CLIENT_PHONE_FORMAT')}}</a></p>
                             </div>
                         </div>
                         <hr>
@@ -35,16 +33,17 @@
                             </div>
                             <div class="col-12 col-md-auto my-auto">
                                 <p class="my-0 py-0">Correo</p>
-                                <p class="my-0 py-0 text-muted">info@navegartours.com.mx
-                                </p>
+                                <p class="my-0 py-0 text-muted"><a href="mailto:{{env('CLIENT_MAIL')}}">{{env('CLIENT_MAIL')}}</a></p>
+
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 mb-4">
-                    <div class="card p-2 card-shadow">
-                        <div class="card-body">
-                            <form class="needs-validation">
+                    <!-- <div class="card p-2 card-shadow"> -->
+                    <!-- <div class="card-body"> -->
+                    <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2692.2911707399458!2d-96.10154590011356!3d19.09581676830922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c3402fb59cc19f%3A0xcd54c2a7e752bd5b!2sClub%20Nautico%20El%20Dorado!5e0!3m2!1sen!2smx!4v1751076498117!5m2!1sen!2smx" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!-- <form class="needs-validation">
                                 <div class="row">
                                     <div class="col-12 col-md-6">
                                         <div class="mb-3">
@@ -74,9 +73,9 @@
                                 <div class=" mb-3">
                                     <button class="btn btn-primary form-control">Enviar</button>
                                 </div>
-                            </form>
-                        </div>
-                    </div>
+                            </form> -->
+                    <!-- </div> -->
+                    <!-- </div> -->
                 </div>
             </div>
         </div>
