@@ -5,7 +5,7 @@
             <h1 class="">Nuestras embarcaciones</h1>
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <p class="lead text-muted">Disfruta del máximo lujo y confort con nuestros completos servicios de renta de yates.</p>
+                    <p class="lead text-muted">Disfruta del más alto nivel de lujo y confort con nuestros servicios premium de renta de yates.</p>
                 </div>
                 <div class="col-auto ms-auto">
                     <a href="{{ env('APP_URL')}}#home">Reserva ahora</a>

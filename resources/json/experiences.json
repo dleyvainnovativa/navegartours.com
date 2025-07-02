@@ -3,6 +3,11 @@
         "id": 4,
         "name": "Paseo con amigos y familiares",
         "gallery": [
+            "familiares6.jpeg",
+            "familiares7.jpeg",
+            "familiares8.jpeg",
+            "familiares9.jpeg",
+            "familiares10.jpeg",
             "familiares1.png",
             "familiares2.png",
             "familiares3.png",
@@ -11,29 +16,13 @@
         ]
     },
     {
-        "id": 1,
-        "name": "Cena romántica",
-        "gallery": [
-            "cena1.png",
-            "cena2.png",
-            "cena3.png",
-            "cena4.png"
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Cumpleaños",
-        "gallery": [
-            "cumpleaños1.png",
-            "cumpleaños2.png",
-            "cumpleaños3.png",
-            "cumpleaños4.png"
-        ]
-    },
-    {
         "id": 3,
         "name": "Despedida de soltera",
         "gallery": [
+            "despedida7.jpeg",
+            "despedida8.jpeg",
+            "despedida9.jpeg",
+            "despedida10.jpeg",
             "despedida1.png",
             "despedida2.png",
             "despedida3.png",
@@ -42,11 +31,32 @@
             "despedida6.png"
         ]
     },
-    
+    {
+        "id": 2,
+        "name": "Cumpleaños",
+        "gallery": [
+            "cumpleaños5.jpeg",
+            "cumpleaños6.jpeg",
+            "cumpleaños7.jpeg",
+            "cumpleaños8.jpeg",
+            "cumpleaños9.jpeg",
+            "cumpleaños10.jpeg",
+            "cumpleaños1.png",
+            "cumpleaños2.png",
+            "cumpleaños3.jpeg",
+            "cumpleaños4.jpeg"
+        ]
+    },
     {
         "id": 5,
         "name": "Integración",
         "gallery": [
+            "integracion5.jpeg",
+            "integracion6.jpeg",
+            "integracion7.jpeg",
+            "integracion8.jpeg",
+            "integracion9.jpeg",
+            "integracion10.jpeg",
             "integracion1.png",
             "integracion2.png",
             "integracion3.png",
@@ -57,9 +67,33 @@
         "id": 6,
         "name": "Pedida",
         "gallery": [
+            "pedida4.jpeg",
+            "pedida7.jpeg",
+            "pedida6.jpeg",
+            "pedida10.jpeg",
+            "pedida5.jpeg",
             "pedida1.png",
+            "pedida8.jpeg",
             "pedida2.png",
+            "pedida9.jpeg",
             "pedida3.png"
         ]
+    },
+    {
+        "id": 1,
+        "name": "Cena romántica",
+        "gallery": [
+            "cena5.jpeg",
+            "cena6.jpeg",
+            "cena7.jpeg",
+            "cena8.jpeg",
+            "cena9.jpeg",
+            "cena10.jpeg",
+            "cena1.png",
+            "cena2.png",
+            "cena3.png",
+            "cena4.png"
+        ]
     }
+    
 ]

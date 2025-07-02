@@ -3,7 +3,7 @@
     <div class="container py-4" id="services">
         <div class="py-4 text-center">
             <h1 class="">Servicios y Diversión a toda costa</h1>
-            <p class="lead text-muted">Disfruta del máximo lujo y confort con nuestros completos servicios de renta de yates.</p>
+            <p class="lead text-muted">Disfruta del más alto nivel de lujo y confort con nuestros servicios premium de renta de yates.</p>
         </div>
         <div class="row text-start g-4">
             <div class="col-12 col-md-4">

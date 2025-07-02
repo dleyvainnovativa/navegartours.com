@@ -2,10 +2,10 @@
 <section class="py-4">
     <div class="container py-4" id="places">
         <div class="py-4 text-center">
-            <h1 class="">Experiencias populares</h1>
+            <h1 class="">Experiencias destacadas</h1>
             <div class="row">
                 <div class="col-12 col-md-12">
-                    <p class="lead text-muted">Explora las costas e islas más impresionantes de Veracruz y ten la mejor experiencia para tus eventos especiales</p>
+                    <p class="lead text-muted">Explora las islas y arrecifes más importantes de Veracruz y vive la mejor experiencia para tus eventos especiales</p>
                 </div>
             </div>
         </div>
