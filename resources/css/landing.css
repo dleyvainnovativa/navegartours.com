@@ -71,11 +71,11 @@ color: var(--primary-color);
 
 .card-img-top{
     object-fit: cover;
-    height: 14rem;
+    height: 22rem;
 }
 .experience-card-img{
     object-fit: cover;
-    height: 14rem;
+    height: 22rem;
 }
 
 #hero-content {

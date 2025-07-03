@@ -68,7 +68,7 @@ function book(event) {
 - Experiencias seleccionadas:
 ${experiencesText}`;
 
-        let phone = "2291645189"; // Replace with the number
+        let phone = "2291216567"; // Replace with the number
         let url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
         window.open(url, "_blank");

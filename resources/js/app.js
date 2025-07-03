@@ -5,12 +5,6 @@ import * as bootstrap from 'bootstrap';
 import 'bootstrap-table';
 import 'bootstrap-table/dist/extensions/filter-control/bootstrap-table-filter-control.min.js';
 
-// Import Tempus Dominus
-import { TempusDominus, Namespace } from '@eonasdan/tempus-dominus';
-import '@eonasdan/tempus-dominus/dist/css/tempus-dominus.min.css';
-// (Optional) If you use Bootstrap 5 icons
-import 'bootstrap-icons/font/bootstrap-icons.css';
-
 import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 import { Spanish } from "flatpickr/dist/l10n/es.js";
@@ -21,8 +15,6 @@ import Swal from 'sweetalert2';
 window.bootstrap = bootstrap;
 window.flatpickr = flatpickr;
 window.Spanish = Spanish;
-window.TempusDominus=TempusDominus
-window.Namespace=Namespace
 window.jQuery = $;
 window.Swal = Swal;
 window.$ = $;

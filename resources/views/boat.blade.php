@@ -136,7 +136,7 @@
                         <hr>
                         <div class="py-2 text-center">
                             <p class="text-muted">¿Necesitas ayuda?</p>
-                            <button class="btn btn-outline-secondary form-control">Llama +1 (555) 123-4567</button>
+                            <a href="tel:{{env('CLIENT_PHONE')}}" class="btn btn-outline-secondary form-control">Llama {{env('CLIENT_PHONE_FORMAT')}}</a>
                         </div>
                     </div>
                 </div>
