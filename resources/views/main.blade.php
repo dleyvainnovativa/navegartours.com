@@ -11,7 +11,23 @@
     <meta name="author" content="innovativa.com.mx">
     <meta property="og:description" content="{{env('SITE_DESCRIPTION')}}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://navegartours.com.mx">
+    <meta property="og:url" content="https://navegartours.com">
+    <meta name="keywords" content="renta de yates Veracruz, alquiler de yates en Veracruz, renta de barcos Veracruz, yates de lujo Veracruz, paseos en yate Veracruz, renta de yates Boca del Río, paseos en yate Isla de Sacrificios, yacht rental Veracruz Mexico, boat charter Veracruz, private yacht tours Veracruz">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="{{env('SITE_NAME')}}">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JFPF451KE9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-JFPF451KE9');
+    </script>
 
 
 
