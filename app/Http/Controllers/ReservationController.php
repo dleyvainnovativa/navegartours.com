@@ -15,7 +15,7 @@ class ReservationController extends Controller
 
     public static function importReservations()
     {
-        $url = "https://1drv.ms/x/c/8b1182e43bad56b0/EetX8xXpsqpEvghLFAHpFFIBPpn3grQw7HYvEvpq0T14Jg?download=1";
+        $url = "https://1drv.ms/x/c/8b1182e43bad56b0/IQCp2vGgzAagR6LbPLf8SVMdAZnIAAtTy2JdeCuBtY2sem8?download=1";
 
         $response = Http::withHeaders([
             'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
